@@ -1,0 +1,44 @@
+<style>
+button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    }
+    
+    #heal{
+        background-color:#4CAF50;
+    }
+    #soc{
+        background-color:#FFC0CB;
+    }
+    #env{
+        background-color:rgb(200,0,200);
+    }
+    #add{
+        background-color:rgb(20,100,200);
+    }
+    
+    body{
+        margin-left:20%;
+    }
+</style>
+<h1>SOCIAL ISSUES</h1>
+<form method="get" action="https://we-hack-too-shan3011.c9users.io/social.html">
+    <button type="submit"id="add">Peer</button>
+</form>
+<form method="get" action="https://we-hack-too-shan3011.c9users.io/social.html">
+    <button type="submit"id="env">School</button>
+</form>
+<form method="get" action="https://we-hack-too-shan3011.c9users.io/social.html">
+    <button type="submit"id="heal">Isolation</button>
+</form>
+<form method="get" action="https://we-hack-too-shan3011.c9users.io/addnew.html">
+    <button type="submit"id="soc">add an issue</button>
+</form>
