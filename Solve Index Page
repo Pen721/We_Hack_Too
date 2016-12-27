@@ -2,9 +2,116 @@
     <head>
         <meta charset="utf-8">
         <title>SOLVE | Solve community problems through collaboration</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
-        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header {
+    background-image: url('../img/bar-people.jpg'); /* unsplash.com */
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #eee;
+    padding-bottom: 150px;
+}
+
+nav {
+    margin-bottom: 100px;
+    background-color: rgba(0,0,0,.7);
+    padding: 1.5rem 1.65rem 3rem;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav a {
+    font: bold 1.5rem/1em Raleway,sans-serif;
+    color: #eee;
+    text-decoration: none;
+    transition: .2s;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.right li {
+    margin: 0 1rem;
+}
+.right li:last-child {
+    margin-right: 0;
+}
+
+h1, h2, h3 {
+    font-family: Raleway,sans-serif;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.header-slider {
+    width: 60%;
+    margin: 15px auto;
+}
+
+.dark-bg {
+    border: none;
+}
+.dark-bg a {
+    display: block;
+    text-decoration: none;
+    font: bold 1.15rem/1em Raleway,sans-serif;
+    color: #eee;
+    background: #e1486c;
+    padding: 1rem;
+    border-bottom: 3px solid #bd1f44;
+    border-top: 0px solid #7b142c;
+    transition: .2s;
+}
+.dark-bg a:hover, .dark-bg a:active {
+    background: #bd1f44;
+    border-bottom: 3px solid #7b142c;
+}
+.dark-bg a:active {
+    border-bottom: 0px solid #7b142c;
+    border-top: 3px solid #7b142c;
+}
+
+section {
+    background: #E3FDFF;
+    padding: 5% 5% 0;
+}
+
+.container {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3.5rem;
+    box-shadow: -1px -1px .5rem #aaa;
+}
+
     </head>
     
     <body>
