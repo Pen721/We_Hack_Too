@@ -2,6 +2,7 @@
     <head>
         <meta charset="utf-8">
         <title>SOLVE | Solve community problems through collaboration</title>
+        <style>
         * {
     margin: 0;
     padding: 0;
@@ -111,7 +112,7 @@ section {
     padding: 3.5rem;
     box-shadow: -1px -1px .5rem #aaa;
 }
-
+</style>
     </head>
     
     <body>
