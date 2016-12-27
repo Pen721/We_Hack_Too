@@ -1,0 +1,75 @@
+<!-- Thanks for Kat collaborating on this with me-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SOLVE | Solve community problems through collaboration</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="left">
+                        <a href="/" class="title">SOLVE</a>
+                    </li>
+                    <ul class="right">
+                        <li><a href="/about">ABOUT</a></li>
+                        <li><a href="https://we-hack-too-shan3011.c9users.io/mainProblemPage.html">PROBLEMS</a></li>
+                    </ul>
+                </ul>
+            </nav>
+            
+            <h1>
+                <span class="title">SOLVE</span><br>
+                <img src="img/logo-white.png" alt="Solve logo">
+            </h1>
+            
+            <div class="header-slider">
+                <div class="slide">
+                    <h2>Let the <u>best</u> tackle your problem</h2>
+                    <button class="dark-bg"><a href="https://we-hack-too-shan3011.c9users.io/addnew.html?">Post your problem</a></button>
+                </div>
+                
+                <div class="slide">
+                    <h2>Change the world by <u>empowering communities</u></h2>
+                    <button class="dark-bg"><a href="https://we-hack-too-shan3011.c9users.io/mainProblemPage.html">Solve problems</a></button>
+                </div>
+                
+                <div class="slide">
+                    <h2>Connect with the <u>brightest minds</u> in the world</h2>
+                    <button class="dark-bg"><a href="#demo">See how it works</a></button>
+                </div>
+            </div>
+        </header>
+        
+        <section id="demo">
+            <h3>Post any problem.</h3>
+            <div class="container">
+                <h4 class="problem-name">Excess plastic waste</h4>
+                <h4 class="problem-name">Axolotls going extinct</4>
+                <h4 class="problem-name">Polluted water in U.S.</4>
+            </div>
+            <h3>Solve any problem.</h3>
+            <div class="container">
+                <h4 class="problem-name">We can reduce plastic waste by reducing plastic bags</h4>
+                <h4 class="problem-name">We can stop the oil spills</4>
+                <h4 class="problem-name">We can organize local communities to focus on thsi issue</4>
+            </div>
+            
+        </section>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+               $('.header-slider').slick({
+                   autoplay: true,
+                   autoplaySpeed: 5000
+               }) 
+            });
+        </script>
+    </body>
+</html>
