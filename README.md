@@ -1,3 +1,3 @@
-# We_Hack_Too
-I created this project back in June 2016, Solve is a page dedicated to problem solving.
-This page is an ellaboration between me and Kat.
+#We_Hack_Too
+#Connect
+Connect is a website developed by @pen721 and @katavie, for the hackathon we_hack_too, powered by Microsoft and B-stem project. In developing this project, we recognize that many local communities around the world often face urgent issues that are not informed to other local communities that have the technology to solve these issues. Our solution is to develop a website that organize the struggle facing local communities around the world by topic, so others around the globe with the skill-set to solve the issues can find them easily, and on the way, others with similar interests to solve the issue together through collaboration and team-work. 
